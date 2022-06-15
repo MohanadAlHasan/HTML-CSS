@@ -1,45 +1,48 @@
-body{
-    margin: 0px;
-    padding: 0px;
-}
 
-.content{
-    
-    background-color: #30c2fc;
+    .container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#30c2fc;
+    width: 800px;
     height: 500px;
-    width: 50%;
-    margin: 100px auto;
     z-index: 1;
+
 }
 .bird-head{
-    background-color: black;
     position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    width: 350px;
+    height: 400px;
+    border-radius: 100px 100px 0 0 ;
     z-index: 3;
-    width: 20%;
-    height: 350px;
-    margin-top: 150px;
-    margin-left: 200px;
-    border-radius: 100px 100px 0 0;
+
 }
 .bird-eye{
-    background-color: white;
     position: absolute;
-    z-index: 4;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    background-color:white;
     width: 40px;
     height: 40px;
-    margin-left:330px ;
-    margin-top:250px ;
+    z-index: 4;
 }
 .bird-beak{
     position: absolute;
-    z-index: 2;
+    left:75%;
+    top: 55%;
+    transform: translate(-50%,-50%);
     width: 0; 
     height: 0; 
-    border-top: 70px solid transparent;
-    border-bottom: 70px solid transparent;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
     
     border-left: 60px solid yellow;
-    margin-top: 250px;
-    margin-left: 500px;
+    z-index: 2;
+    
 }
-
