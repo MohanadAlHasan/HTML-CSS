@@ -1,0 +1,17 @@
+1.1- How do I create a hidden file ?:
+add "." before name of file 
+$ touch .hidden-file.html
+1.2- How do I create a hidden folder?:
+add "." before name of folrer 
+$ mkdir .hidden-folder
+1.3- How do I display it in the CLI?:
+$ ls -a
+-------------------------------
+2- How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+$ mkdir -p these/folders/are/just/for/fun
+---------------------------------------
+3- How do I append a message to a file, without a newline character?
+$ echo first message >> file.txt
+$ echo -n second message >> file.txt
+
+

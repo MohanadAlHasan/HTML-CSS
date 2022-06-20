@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color:rgb(82, 86, 89);
+    display: flex;
+    justify-content: center;
+    
+    min-height: 100vh;
+
+}
+/*************** header***********/
+.header{
+    position: absolute;
+    width: 100%;
+    max-width: 800px;
+    min-height: 300px;
+    background-color: lightblue;
+    border: solid 15px #fff;
+    z-index: 999;
+    align-content: flex-start;
+    margin-top: 80px;
+    
+    
+    
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr  2fr;
+    margin: 50px;
+    
+
+
+}
+.container .left-side{
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+    
+
+}
+.container .right-side{
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    
+}
+.profile-text{
+    position: relative;
+    padding:20px;
+    width: 100%;
+
+}
+.img img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    top:0;
+    left:0;
+    object-fit: cover;
+    
+   
+    
+    
+}
+.conect-info{
+   
+    width: 100%;
+    margin-left: 350px;
+    margin-top: 20px;
+    
+    
+    
+
+}
+.conect-info h1{
+    color:#003147;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    letter-spacing: 0.1rem;
+    margin-left: -50px;
+}
+.conect-info h2{
+    color:#003147;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    letter-spacing: 0.1rem;
+    margin-left: 25px;
+}
+.conect-info ul{
+    position: relative;
+    
+}
+.conect-info ul li{
+    position: relative;
+    list-style: none;
+}
+.conect-info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 15px;
+    color: #003147;
+}
+.conect-info ul li .text{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+}
+    
+.information {
+    padding: 5px;
+    margin-top: 350px;
+    position: relative;
+    
+
+}
+.titel{
+    color: lightblue;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+     font-size: 1.2rem;
+     text-align: center;
+     padding-bottom: 15px;
+}
+.information ul li{
+    position: relative;
+    list-style: none;
+    padding-bottom: 40px;
+}
+.information ul li .text{
+    color: #fff;
+    font-weight: 300;
+    
+}
+  .information.skils .percent {
+    position: relative;
+
+    width: 100%;
+    height: 6px;
+    background-color: #081921;
+    margin-top: 10px;
+}
+.information.skils .percent .value{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: lightblue;
+
+}
+
+    .language{
+        margin-top: 0px;
+    }
+    .hobbies{
+        margin: 0px;
+    }
+    .information.hobbies ul li {
+        color: #fff;
+        font-weight: 300;
+        list-style: circle;
+        
+    }
+    .profile{
+        margin-top: 350px; 
+    }
+    .right-side h2{
+        margin-bottom: 10px;
+        margin-top: 40px;
+        background-color: lightblue;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1.5rem;
+       width: 125px;
+        padding-left: 15px;
+        border-radius: 15px;
+        box-shadow: 0px 10px 10px gainsboro;
+        
+    }
+    .profile p{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.1rem;
+        
+    }
+    .education h2{
+        width: 175px;
+    }
+    .experience h2{
+        width: 175px;
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+    }
+    .box .year-name{
+        min-width: 150px;
+    }
+    .box .year-name h5{
+        text-transform: uppercase;
+        color: #848c90;
+        font-weight: 700;
+    }
+    .box .text{
+        margin-left: 50px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.1rem;
+    }
+    .box .text h4{
+        color: #2a7da2;
+        font-size: 1.2rem;
+    }
+    .courses h2{
+        width: 130px;
+    }
+    .courses .box1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    
+    
