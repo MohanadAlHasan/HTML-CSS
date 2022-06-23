@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+header{
+    color: blue;
+    font-size: 2em;
+    background-color: gray;
+    text-align: center;
+
+}
+/****** FLEXBOX**********/
+
+.flexbox-section h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.flexbox-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.flexbox-item{
+    background-color: white;
+    border: 1px solid black;
+    min-height: 10em;
+    width: 18em;
+    overflow:hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    padding: 10px;
+
+}
+.flexbox-item:hover{
+    transform: scale(1.1,1.1)
+}
+.flexbox-item {
+    text-align: center;
+}
+
+.flexbox-item img{
+    
+    width: 100%;
+}
+
+/******** GRID********/
+
+.grid-section h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+    color:red;
+}
+
+.grid-list{
+    display: grid;
+    padding: 50px;
+    
+    
+    gap: 1.5em;
+    
+    
+    
+    
+}
+.grid-item { 
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    list-style: none;
+    
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+
+
+}
+
+.grid-item:hover{
+    transform: scale(1.1,1.1);
+}
+.grid-item img{
+    
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media (min-width: 1024px){
+    .flexbox-item{
+        width:20%;
+    }
+    .flexbox-item:first-child{
+        width: 40%;
+    }
+
+    .grid-list{grid-template-columns: repeat(4, 1fr);}
+
+    .grid-list>li:first-child{
+        grid-column: span 2;
+
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+    .flexbox-item{
+        width:25%;
+    }
+    .flexbox-item:first-child{
+        width: 40%;
+    }
+    .flexbox-item:nth-child(2){
+        width: 40%;
+    }
+
+    .grid-list{
+        grid-template-columns: repeat(6, 1fr);
+    
+    }
+
+    .grid-item{
+        grid-column-end: span 2;
+    }
+    .grid-item:first-child{
+        grid-column: span 3;
+
+        
+    }
+        .grid-item:nth-child(2){
+            grid-column: span 3;
+            
+        }
+}
+
