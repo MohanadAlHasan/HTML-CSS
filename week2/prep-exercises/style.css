@@ -133,7 +133,7 @@ header{
     }
 
     .grid-item{
-        grid-column-end: span 2;
+        grid-column: span 2;
     }
     .grid-item:first-child{
         grid-column: span 3;
