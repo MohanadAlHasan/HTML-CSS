@@ -18,3 +18,10 @@ prep-exercises -week2
 
 https://mohanadalhasan.github.io/HTML-CSS/week2/prep-exercises/index.html
 
+
+Homework-week2
+
+https://mohanadalhasan.github.io/HTML-CSS/week2/homework/index.html
+
+
+
